@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding: 1rem;
+    }
+.primero{
+    flex: 0 0 33%;
+    text-align: center;
+    font-size: 800%;
+    background-image: url(https://cdn.shopify.com/s/files/1/1044/8640/articles/07292017_01_portada_1024x1024.png?v=1502731526);
+}
+.segundo{
+    flex: 0 0 33%;
+    text-align: center;
+    font-size: 800%;
+    background-image: url(https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg);
+
+}
+
+.tercero{
+    text-align: center;
+    font-size: 400%;    
+    flex: 0 0 33%;
+    background-image: url(https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg);
+}
